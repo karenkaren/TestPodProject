@@ -8,6 +8,6 @@ target 'TestPodProject_Example' do
   target 'TestPodProject_Tests' do
     inherit! :search_paths
 
-    
+  pod 'YYModel'
   end
 end

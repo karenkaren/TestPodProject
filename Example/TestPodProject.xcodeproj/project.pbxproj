@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		36799CE4A96A560D7A89CAE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		36799CE4A96A560D7A89CAE4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		44154A60241BEF627FAB43CC /* Pods-TestPodProject_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPodProject_Tests.debug.xcconfig"; path = "Target Support Files/Pods-TestPodProject_Tests/Pods-TestPodProject_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		574B0ABEC48EC0A97A27B950 /* Pods-TestPodProject_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPodProject_Example.debug.xcconfig"; path = "Target Support Files/Pods-TestPodProject_Example/Pods-TestPodProject_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* TestPodProject_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestPodProject_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -59,11 +59,11 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		71261B9FFFCB42284A760169 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		71261B9FFFCB42284A760169 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7FB8AF5367EFD725B4E9B4A0 /* Pods-TestPodProject_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPodProject_Tests.release.xcconfig"; path = "Target Support Files/Pods-TestPodProject_Tests/Pods-TestPodProject_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		93A8F8268A276CF10CCD6764 /* TestPodProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = TestPodProject.podspec; path = ../TestPodProject.podspec; sourceTree = "<group>"; };
+		93A8F8268A276CF10CCD6764 /* TestPodProject.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TestPodProject.podspec; path = ../TestPodProject.podspec; sourceTree = "<group>"; };
 		BD4505E7D17BFF9A95C1A2CD /* Pods-TestPodProject_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestPodProject_Example.release.xcconfig"; path = "Target Support Files/Pods-TestPodProject_Example/Pods-TestPodProject_Example.release.xcconfig"; sourceTree = "<group>"; };
 		C134FD67889AADBC6F616F29 /* Pods_TestPodProject_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPodProject_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2FDFC3456F93B264B69D98E /* Pods_TestPodProject_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestPodProject_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,7 +193,6 @@
 				44154A60241BEF627FAB43CC /* Pods-TestPodProject_Tests.debug.xcconfig */,
 				7FB8AF5367EFD725B4E9B4A0 /* Pods-TestPodProject_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
+				6AD84B699A4D1D6FED2B1A75 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -248,6 +248,10 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = karenkaren;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = ZMX4C3B995;
+						ProvisioningStyle = Manual;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +262,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -303,14 +308,34 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-TestPodProject_Example/Pods-TestPodProject_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/TestPodProject/TestPodProject.framework",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TestPodProject.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestPodProject_Example/Pods-TestPodProject_Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AD84B699A4D1D6FED2B1A75 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestPodProject_Tests/Pods-TestPodProject_Tests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/YYModel/YYModel.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYModel.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestPodProject_Tests/Pods-TestPodProject_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A16F8FAE40901A76ECA68AFB /* [CP] Check Pods Manifest.lock */ = {
@@ -494,12 +519,18 @@
 			baseConfigurationReference = 574B0ABEC48EC0A97A27B950 /* Pods-TestPodProject_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = ZMX4C3B995;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPodProject/TestPodProject-Prefix.pch";
 				INFOPLIST_FILE = "TestPodProject/TestPodProject-Info.plist";
+				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bankcomm.maidanba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mandanba_PF;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};
@@ -510,12 +541,18 @@
 			baseConfigurationReference = BD4505E7D17BFF9A95C1A2CD /* Pods-TestPodProject_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEVELOPMENT_TEAM = ZMX4C3B995;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestPodProject/TestPodProject-Prefix.pch";
 				INFOPLIST_FILE = "TestPodProject/TestPodProject-Info.plist";
+				MARKETING_VERSION = 1.0.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = com.bankcomm.maidanba;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = mandanba_PF;
 				SWIFT_VERSION = 4.0;
 				WRAPPER_EXTENSION = app;
 			};

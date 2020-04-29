@@ -1,0 +1,24 @@
+PODS:
+  - TestPodProject (1.0.0):
+    - YYModel
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - TestPodProject (from `../`)
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - YYModel
+
+EXTERNAL SOURCES:
+  TestPodProject:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  TestPodProject: 2006f9a920dad85444448e1ec245c63b4d02caba
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: 8b8b8e724ad21a80be84da68bb86762aeda51c76
+
+COCOAPODS: 1.8.4

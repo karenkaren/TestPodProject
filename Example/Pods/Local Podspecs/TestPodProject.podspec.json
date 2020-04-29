@@ -1,0 +1,27 @@
+{
+  "name": "TestPodProject",
+  "version": "1.0.0",
+  "summary": "A short description of TestPodProject.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/karenkaren/TestPodProject",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "karenkaren": "liuj_650@bankcomm.com"
+  },
+  "source": {
+    "git": "https://github.com/karenkaren/TestPodProject.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "TestPodProject/Classes/**/*",
+  "dependencies": {
+    "YYModel": [
+
+    ]
+  }
+}
